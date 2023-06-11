@@ -11,6 +11,10 @@
     --text: #4c4d5f;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 a {
     text-decoration: none;
     color: var(--text);
@@ -21,8 +25,9 @@ ul {
 }
 
 .nav_container {
-    max-width: 1100px;
+    max-width: 1280px;
     margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .navbar {
@@ -33,6 +38,12 @@ ul {
 }
 
 .navbar_content ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.navbar__left {
     display: flex;
     align-items: center;
     gap: 2.5rem;
